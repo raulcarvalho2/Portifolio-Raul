@@ -1,0 +1,182 @@
+/*formatação*/
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+.sub-titulo {
+    font-size: 3.8rem;
+    color: #C2C2C2;
+    text-align: center;
+}
+
+
+
+/*Cabeçalho*/
+.header {
+    background-color: #47096D;
+    color: #fff;
+    text-align: center;
+}
+
+.header-menu {
+    list-style-type: none;
+    padding: 33.2px;
+}
+
+.header-menu li {
+    display: inline;
+    margin-right: 20px;
+}
+
+
+.header-menu li a {
+    text-decoration: none;
+    color: inherit;
+    font-size: 1.3rem;
+}
+
+
+/*Introdução*/
+
+.introducao {
+    background: #1B1D20;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 45px;
+}
+
+.info-introducao {
+    margin-left: 60px;
+}
+
+.info-introducao h1 {
+    font-size: 4.3rem;
+    color: #fff;
+    margin: 0;
+}
+
+.info-introducao p {
+    font-size: 1.9rem;
+    color: #b1b1b1;
+    margin: 5px 0;
+}
+
+
+/*Skills*/
+
+
+.skills {
+    background: #282A2D;
+    padding: 20px;
+}
+
+
+.past-skills {
+    display: flex;
+    justify-content: center;
+    gap: 110px;
+    padding: 57px;
+}
+
+.skill {
+    padding: 15px 60px;
+    border: 2px solid;
+    border-radius: 10px;
+}
+
+.skill h5 {
+    color: #c2c2c2;
+    text-align: center;
+    font-size: 1.5rem;
+
+}
+
+.skill img {
+    width: 100%;
+    transition: transform 0.4s;
+    cursor: pointer;
+}
+
+.skill:hover img {
+    transform: scale(0.9);
+}
+
+
+
+.borderJs {
+    border-color: #FFDA3E;
+}
+
+.borderHtml {
+    border-color: #EF652A;
+}
+
+.borderCss {
+    border-color: #35A8DB;
+}
+
+
+/*Projetos*/
+
+.projetos {
+    background: #1B1D20;
+    padding: 20px;
+}
+
+.projetos-container {
+    display: flex;
+    justify-content: center;
+    gap: 110px;
+    margin-top: 29px;
+}
+
+.projetos button {
+    font-size: 0.8rem;
+    cursor: pointer;
+    border-radius: 10px;
+    padding: 15px 30px;
+    background: #282A2D;
+    color: #fff;
+    border: none;
+    outline: none;
+    transition: background 0.3s ease;
+    /* Transição suave para a cor de fundo */
+}
+
+.projetos button:hover {
+    background: #0c0c0e;
+}
+
+.button {
+    text-align: center;
+    padding: 20px;
+}
+
+/*Frase de efeito*/
+
+.frase-efeito {
+    background-image: url('/assets/img/img-frase.svg');
+    padding: 40px;
+}
+
+.frase-efeito h5 {
+    font-size: 2.1rem;
+    color: #fff;
+    text-align: center;
+}
+
+.red-text {
+color: #FF2A2A;
+}
+
+.green-text {
+    color: #01C72D;
+}
