@@ -1,0 +1,22 @@
+.header {
+    background-color: #47096D;
+    color: #fff;
+    text-align: center;
+}
+
+.header-menu {
+    list-style-type: none;
+    padding: 33.2px;
+}
+
+.header-menu li {
+    display: inline;
+    margin-right: 20px;
+}
+
+
+.header-menu li a {
+    text-decoration: none;
+    color: inherit;
+    font-size: 1.3rem;
+}

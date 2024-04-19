@@ -1,0 +1,49 @@
+.skills {
+    background: #282A2D;
+    padding: 20px;
+}
+
+
+.past-skills {
+    display: flex;
+    justify-content: center;
+    gap: 110px;
+    padding: 57px;
+}
+
+.skill {
+    padding: 15px 60px;
+    border: 2px solid;
+    border-radius: 10px;
+}
+
+.skill h5 {
+    color: #c2c2c2;
+    text-align: center;
+    font-size: 1.5rem;
+
+}
+
+.skill img {
+    width: 100%;
+    transition: transform 0.4s;
+    cursor: pointer;
+}
+
+.skill:hover img {
+    transform: scale(0.9);
+}
+
+
+
+.borderJs {
+    border-color: #FFDA3E;
+}
+
+.borderHtml {
+    border-color: #EF652A;
+}
+
+.borderCss {
+    border-color: #35A8DB;
+}

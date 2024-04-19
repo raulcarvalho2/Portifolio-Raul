@@ -1,0 +1,18 @@
+.frase-efeito {
+    background-image: url('/assets/img/img-frase.svg');
+    padding: 40px;
+}
+
+.frase-efeito h5 {
+    font-size: 2.1rem;
+    color: #fff;
+    text-align: center;
+}
+
+.red-text {
+color: #FF2A2A;
+}
+
+.green-text {
+    color: #01C72D;
+}
