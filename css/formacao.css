@@ -1,0 +1,78 @@
+.formacao {
+    background-image: url('/assets/img/form-img-fundo.svg');
+    color: #ffffff;
+}
+
+.formacao-container {
+    max-width: 1200px;
+    padding: 30px 20px;
+    margin: 0 auto;
+    display: grid;
+    gap: 100px;
+    position: relative;
+}
+
+
+.formacao-texto {
+    font-size: 1.0rem;
+    line-height: 1.33;
+    max-width: 40ch;
+    color: #c2c2c2;
+}
+
+.formacao-texto strong {
+    color: #ffffff;
+}
+
+.infos-container {
+    margin-top: -55px;
+}
+
+.style-transform {
+    transition: transform 0.4s;
+    cursor: pointer;
+}
+
+.style-transform:hover {
+    transform: scale(1.1);
+}
+
+.faculdade-lista {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 25px;
+}
+
+.faculdade {
+    flex: 1;
+    background: #1B1D20;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.faculdade-tipo {
+    font-size: 0.875rem;
+    text-transform: uppercase;
+    color: #c2c2c2;
+    margin-bottom: 10px;
+}
+
+.faculdade-curso {
+    flex: 1;
+    font-size: 1.125rem;
+    line-height: 1.4;
+    margin-bottom: 40px;
+    position: relative;
+}
+
+.faculdade-curso::before {
+    content: "";
+    display: block;
+    width: 4px;
+    height: 20px;
+    background: linear-gradient(#d9b5e7, #b0a3b4);
+    position: absolute;
+    left: -24px;
+}
