@@ -6,6 +6,7 @@
 @import url(./css/projetos.css);
 @import url(./css/frase-efeito.css);
 @import url(./css/formacao.css);
+@import url(./css/rodape.css);
 
 /*-------Fim imports css--------*/
 
@@ -15,6 +16,7 @@
 
 
 /*-------Formatação-------*/
+
 
 * {
     padding: 0;
@@ -32,9 +34,5 @@ body {
     text-align: center;
 }
 
+
 /*-------Fim Formatação--------*/
-
-
-
-
-
